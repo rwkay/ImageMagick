@@ -30,13 +30,13 @@
 static Image *ReadASEImage(const ImageInfo *image_info, ExceptionInfo *exception)
 {
   return NULL;
-} // end ReadBMPImage
+} // end ReadASEImage
 
 
 static MagickBooleanType WriteASEImage(const ImageInfo *image_info,Image *image, ExceptionInfo *exception)
 {
   return MagickTrue;
-} // end WriteBMPImage
+} // end WriteASEImage
 
 
 static MagickBooleanType IsASE(const unsigned char *magick,const size_t length)
